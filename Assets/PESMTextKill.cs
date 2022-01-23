@@ -16,11 +16,11 @@ public class PESMTextKill : MonoBehaviour
 	void OnDestroy()
 	{
 		bell.Play(0);
-		Instantiate(target, new Vector3(Random.Range(-6.0f, 6.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
-		Instantiate(target, new Vector3(Random.Range(-6.0f, 6.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
-		Instantiate(target, new Vector3(Random.Range(-6.0f, 6.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
-		Instantiate(target, new Vector3(Random.Range(-6.0f, 6.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
-		Instantiate(target, new Vector3(Random.Range(-6.0f, 6.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
+		Instantiate(target, new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
+		Instantiate(target, new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
+		Instantiate(target, new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
+		Instantiate(target, new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
+		Instantiate(target, new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-3.0f, 3.0f), 0), Quaternion.identity, gameManager.transform);
 		gameManager.GetComponent<Manager>().startTimer();
 	}
 }

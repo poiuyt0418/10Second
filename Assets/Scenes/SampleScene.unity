@@ -312,7 +312,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -897,11 +897,11 @@ RectTransform:
   m_Father: {fileID: 271377881}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 305.9}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 104.68}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1159257256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,11 +1436,11 @@ RectTransform:
   m_Father: {fileID: 271377881}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 251.8}
-  m_SizeDelta: {x: 160, y: 58.19}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 196.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2102592768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8695390450833486, guid: 75e411dec5b1bf14bbefeef50b24939f, type: 3}
@@ -1461,7 +1461,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 93d81eacf85919e4f9a8f8913035c186, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1f3cbf811d3587f4a8cbf7eb6290e0e1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1673,7 +1673,7 @@ PrefabInstance:
     - target: {fileID: 8695390450833487, guid: 75e411dec5b1bf14bbefeef50b24939f, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: e0cfcc4e6098889418509a4eb85b9346, type: 3}
+      objectReference: {fileID: 8300000, guid: 0d86f72d445502044a0571727c5ccf5e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75e411dec5b1bf14bbefeef50b24939f, type: 3}
 --- !u!82 &8695389631110769 stripped
